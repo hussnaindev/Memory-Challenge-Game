@@ -120,27 +120,50 @@ body
 
     #moves
     {
-        margin-left: 150px;
-        margin-right: 85px;
+        padding-right: 15px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 20px;
+        font-size: 22px;
+        margin-left: 100px;
+        margin-right: 180px;
     }
 
     #counter
     {
 
-        margin-left: 800px;
-        padding-right: 20px;
+        margin-right: 10px;
+        margin-left: 810px;
+        background-image: linear-gradient(#16222A,#3A6073);
+        color: lightgreen;
+        padding-right: 180px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 30px;
+        font-size: 25px;
     }
 
     .main
     {
-        margin-left: 30px;
-
+        margin-left: 2px;
     }
 
     .memory img 
     {
         margin-left: 470px;
     }
+
+
+    .card
+    {
+        border: 2px solid gray;
+        background-image: linear-gradient(#16222A,#3A6073);
+        padding: 120px 80px;
+        border-radius: 20px;
+        height: 120px;
+        width: 90px;
+    }
+
 }
 
 
