@@ -114,7 +114,7 @@ body
 
     body 
     {
-        height:300vh;
+        height:350vh;
     }
 
 
@@ -128,6 +128,18 @@ body
         margin-left: 100px;
         margin-right: 100px;
     }
+   
+    #startButton
+    {
+        height: 85px;
+        width: 85px;
+    }
+   
+   #restart
+   {
+      height: 80px;
+      width: 80px;
+   }
 
     #counter
     {
@@ -145,7 +157,7 @@ body
 
     .main
     {
-        margin-left: 2px;
+        margin-left: 5px;
         position:absolute;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -155,7 +167,7 @@ body
 
     .memory img 
     {
-        margin-left: 550px;
+        margin-left: 500px;
         height: 200;
         width: 300;
     }
