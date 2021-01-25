@@ -111,7 +111,7 @@ function showCard(str3)
           setTimeout(cardBack,500);
           count=0;
           moves++;
-          document.getElementById("moves").innerHTML = "Moves: "+ moves;
+          document.getElementById("moves").innerHTML = "Moves:"+ moves;
       }
 
 
@@ -126,7 +126,7 @@ function showCard(str3)
               setTimeout(cardBack,500);
               count=0;
               moves++;
-              document.getElementById("moves").innerHTML = "Moves: " + moves;
+              document.getElementById("moves").innerHTML = "Moves:" + moves;
       }
    }
 }
@@ -289,7 +289,7 @@ function timeCount()
       stopInterval();
       restartGame();
    }
-   document.getElementById("counter").innerHTML = "Time: " + counter +"s";
+   document.getElementById("counter").innerHTML = "Time:" + counter +"s";
 }
 
 function randomCards()
@@ -478,8 +478,8 @@ function restartGame()
    stopInterval();
    counter = 100;
    moves = 0;
-   document.getElementById("counter").innerHTML = "Time: "+ counter + "s";
-   document.getElementById("moves").innerHTML = "Moves: "+moves;
+   document.getElementById("counter").innerHTML = "Time:"+ counter + "s";
+   document.getElementById("moves").innerHTML = "Moves:"+moves;
    document.getElementById("allCards").style.marginTop = "45px"; 
    buttonCount = 0;
    blockCard();
