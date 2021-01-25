@@ -133,10 +133,10 @@ body
     {
 
         margin-right: 0px;
-        margin-left: 1200px;
+        margin-left: 1000px;
         background-image: linear-gradient(#16222A,#3A6073);
         color: lightgreen;
-        padding-right: 220px;
+        padding-right: 200px;
         padding-top: 1px;
         padding-bottom: 1px;
         padding-left: 30px;
@@ -146,6 +146,11 @@ body
     .main
     {
         margin-left: 2px;
+        position:absolute;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
     }
 
     .memory img 
