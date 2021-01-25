@@ -109,12 +109,12 @@ body
 
 }
 
-@media screen and (max-width:600px)
+@media screen and (max-width:320px)
 {
 
     body 
     {
-        height:200vh;
+        height:300vh;
     }
 
 
